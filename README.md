@@ -11,6 +11,7 @@ Example stack application Nuxt, Postgres and PostgREST
 
 ## Build Setup
 
+(using yarn)
 ```bash
 # install dependencies
 $ yarn install
@@ -32,3 +33,25 @@ $ yarn start
 $ yarn generate
 ```
 
+
+(using bun)
+```bash
+# install dependencies
+$ bun install -y
+
+# serve with hot reload at localhost:3000
+$ bun dev
+
+# Stop all the docker containers (docker-compose down)
+$ bun stop
+
+# Inspect with swagger-UI
+$ bunx open-swagger-ui "http://127.0.0.1:8080" 
+
+# build for production and launch server
+$ bun build
+$ bun start
+
+# generate static project
+$ bun generate
+```
