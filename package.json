@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"docker-compose up -d\" \"nuxt\"",
+    "dev": "docker-compose up -d",
     "build": "nuxt build",
     "start": "nuxt start",
     "stop": "docker-compose down",
